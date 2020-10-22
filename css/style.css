@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background: url(../images/1920x1080-light-blue-solid-color-background.jpg.crdownload);
+    width: auto;
+    height: 400px;
+    color:#fffffff5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    color: lightyellow;
+    border-color: black;
+    border: 10px solid;
+}
+
+    /* Content */
+
+
+.content{
+    background-color: white;
+    color: black;
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.info::after{
+   content:'';
+   display:block;
+   width:0px;
+   height:2px;
+   background:#063df1;
+   transition: 0.2s;
+}
+
+.info:hover::after{
+    width: 22%;
+}
+
+.hobbies::after{
+   content:'';
+   display:block;
+   width:0px;
+   height:2px;
+   background:#063df1;
+   transition: 0.2s;
+}
+
+.hobbies:hover::after{
+    width: 18%;
+}
+
+.name::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#063df1;
+    transition: 0.2s;
+}
+ 
+.name:hover::after{
+    width: 15%;
+}
+
+.date::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#063df1;
+    transition: 0.2s;
+}
+ 
+.date:hover::after{
+    width: 30%;
+}
+
+.nationality::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#063df1;
+    transition: 0.2s;
+}
+ 
+.nationality:hover::after{
+    width: 25%;
+}
+
+.border, .border-2{
+    border: 1px solid;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    /* Features */
+
+.skills::after{
+    content:'';
+    display:block;
+    width: 0;
+    height: 2px;
+    background:#063df1;
+    transition: 0.2s;
+}
+
+.skills:hover::after{
+    width: 12%;
+}
+
+.education::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#063df1;
+    transition: 0.2s;
+}
+
+.education:hover::after{
+    width: 22%;
+}
+
+.feauters{
+    background-color: white;
+    color: black;
+}
+
+.border-3, .border-4{
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+    /* Sidebar */
+
+
+.sidebar{
+    background-color: white;
+    color: black;
+}
+
+    /* Footer */
+
+
+.footer{
+    background-color: white;
+    color: black
+}
+
+.border__footer{
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.contacts{
+    color: black;
+}
+
+.contacts a{
+    color: black !important;
+}
+
+.form-group>input{
+    border: none;
+    border-bottom: 1px solid #797976;
+    background-color: transparent;
+}
+
+.contacts::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#063df1;
+    transition: 0.2s;
+}
+
+.contacts:hover::after{
+    width: 22%;
+}
+
+.message::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#063df1;
+    transition: 0.2s;
+}
+
+.message:hover::after{
+    width: 20%;
+}
